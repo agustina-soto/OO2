@@ -12,6 +12,11 @@ public class SpockTest {
 	}
 
 	@Test
+	public void testDesafiar() {
+		assertEquals("Gana Spock", spock.jugarContraPiedra());
+	}
+
+	@Test
 	public void testJugarContraPiedra() {
 		assertEquals("Gana Spock", spock.jugarContraPiedra());
 	}

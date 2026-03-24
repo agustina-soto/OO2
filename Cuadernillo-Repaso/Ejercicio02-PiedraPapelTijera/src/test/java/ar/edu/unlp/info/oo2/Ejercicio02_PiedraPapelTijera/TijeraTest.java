@@ -25,10 +25,19 @@ public class TijeraTest {
 	public void testJugarContraPapel() {
 		assertEquals("Gana Tijera", tijera.jugarContraPapel());
 	}
-	
+
 	@Test
 	public void testJugarContraTijera() {
 		assertEquals("Empate", tijera.jugarContraTijera());
 	}
 
+	@Test
+	public void testJugarContraLagarto() {
+		assertEquals("Gana Tijera", tijera.jugarContraLagarto());
+	}
+
+	@Test
+	public void testJugarContraSpock() {
+		assertEquals("Gana Spock", tijera.jugarContraSpock());
+	}
 }

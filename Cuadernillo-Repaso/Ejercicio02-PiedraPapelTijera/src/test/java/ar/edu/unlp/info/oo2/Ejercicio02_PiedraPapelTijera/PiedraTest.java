@@ -30,4 +30,14 @@ public class PiedraTest {
 	public void testJugarContraTijera() {
 		assertEquals("Gana Piedra", piedra.jugarContraTijera());
 	}
+
+	@Test
+	public void testJugarContraLagarto() {
+		assertEquals("Gana Piedra", piedra.jugarContraLagarto());
+	}
+
+	@Test
+	public void testJugarContraSpock() {
+		assertEquals("Gana Spock", piedra.jugarContraSpock());
+	}
 }

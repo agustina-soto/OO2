@@ -7,7 +7,7 @@ public class Papel implements OpcionDeJuego {
 	}
 
 	public String jugarContraPiedra() {
-		return "Gana Papel"; // Gano
+		return "Gana Papel";
 	}
 
 	public String jugarContraPapel() {
@@ -15,7 +15,14 @@ public class Papel implements OpcionDeJuego {
 	}
 
 	public String jugarContraTijera() {
-		return "Gana Tijera"; // Pierdo
+		return "Gana Tijera";
 	}
 
+	public String jugarContraLagarto() {
+		return "Gana Lagarto";
+	}
+	
+	public String jugarContraSpock() {
+		return "Gana Papel";
+	}
 }

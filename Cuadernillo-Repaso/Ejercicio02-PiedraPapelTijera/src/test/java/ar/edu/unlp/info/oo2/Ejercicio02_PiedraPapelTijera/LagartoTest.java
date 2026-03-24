@@ -3,41 +3,41 @@ package ar.edu.unlp.info.oo2.Ejercicio02_PiedraPapelTijera;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
 
-public class PapelTest {
-	private Papel papel;
-	
+public class LagartoTest {
+	private Lagarto lagarto;
+
 	@BeforeEach
 	void setUp() throws Exception {
-		papel = new Papel();
+		lagarto = new Lagarto();
 	}
-	
+
 	@Test
 	public void testDesafiar() {
-		assertEquals("Gana Tijera", papel.jugarContraTijera());
+		assertEquals("Gana Lagarto", lagarto.jugarContraSpock());
 	}
 	
 	@Test
 	public void testJugarContraPiedra() {
-		assertEquals("Gana Papel", papel.jugarContraPiedra());
+		assertEquals("Gana Piedra", lagarto.jugarContraPiedra());
 	}
 	
 	@Test
 	public void testJugarContraPapel() {
-		assertEquals("Empate", papel.jugarContraPapel());
+		assertEquals("Gana Lagarto", lagarto.jugarContraPapel());
 	}
-	
+
 	@Test
 	public void testJugarContraTijera() {
-		assertEquals("Gana Tijera", papel.jugarContraTijera());
+		assertEquals("Gana Tijera", lagarto.jugarContraTijera());
 	}
 
 	@Test
 	public void testJugarContraLagarto() {
-		assertEquals("Gana Lagarto", papel.jugarContraLagarto());
+		assertEquals("Empate", lagarto.jugarContraLagarto());
 	}
 
 	@Test
 	public void testJugarContraSpock() {
-		assertEquals("Gana Papel", papel.jugarContraSpock());
+		assertEquals("Gana Lagarto", lagarto.jugarContraSpock());
 	}
 }

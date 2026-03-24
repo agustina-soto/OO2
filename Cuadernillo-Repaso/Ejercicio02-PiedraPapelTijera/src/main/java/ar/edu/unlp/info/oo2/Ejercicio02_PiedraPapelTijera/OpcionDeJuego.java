@@ -10,4 +10,8 @@ public interface OpcionDeJuego {
 	
 	public String jugarContraTijera();
 	
+	public String jugarContraLagarto();
+
+	public String jugarContraSpock();
+	
 }

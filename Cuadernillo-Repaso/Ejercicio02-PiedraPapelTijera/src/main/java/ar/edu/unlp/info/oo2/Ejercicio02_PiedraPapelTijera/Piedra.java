@@ -13,11 +13,18 @@ public class Piedra implements OpcionDeJuego {
 	}
 	
 	public String jugarContraPapel() {
-		return "Gana Papel"; // Pierdo
+		return "Gana Papel";
 	}
 	
 	public String jugarContraTijera() {
-		return "Gana Piedra"; // Gano
+		return "Gana Piedra";
+	}
+
+	public String jugarContraLagarto() {
+		return "Gana Piedra";
 	}
 	
+	public String jugarContraSpock() {
+		return "Gana Spock";
+	}
 }

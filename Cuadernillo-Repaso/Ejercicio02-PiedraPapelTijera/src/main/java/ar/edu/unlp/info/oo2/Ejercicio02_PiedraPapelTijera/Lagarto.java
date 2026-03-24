@@ -1,9 +1,9 @@
 package ar.edu.unlp.info.oo2.Ejercicio02_PiedraPapelTijera;
 
-public class Tijera implements OpcionDeJuego {
+public class Lagarto implements OpcionDeJuego {
 
 	public String desafiar(OpcionDeJuego contrincante) {
-		return contrincante.jugarContraTijera();
+		return contrincante.jugarContraLagarto();
 	}
 
 	public String jugarContraPiedra() {
@@ -11,18 +11,19 @@ public class Tijera implements OpcionDeJuego {
 	}
 
 	public String jugarContraPapel() {
-		return "Gana Tijera";
+		return "Gana Lagarto";
 	}
 
 	public String jugarContraTijera() {
-		return "Empate";
+		return "Gana Tijera";
 	}
 
 	public String jugarContraLagarto() {
-		return "Gana Tijera";
+		return "Empate";
 	}
-	
+
 	public String jugarContraSpock() {
-		return "Gana Spock";
+		return "Gana Lagarto";
 	}
+
 }
